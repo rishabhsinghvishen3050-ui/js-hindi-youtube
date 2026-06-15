@@ -12,3 +12,11 @@ console.log(str1+str2)
  let gamecounter=99
  gamecounter++;
  console.log(gamecounter)
+
+
+ //                    COMPARISIONS
+ console.log(null>0)
+ console.log(null==0)
+ console.log(null>=0)
+ // We should notcompare variables of different datatypes because javascript does not give predictable output in that case
+console.log("2"===2)//strict check : checks the dataypes as well
